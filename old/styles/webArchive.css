@@ -1,0 +1,383 @@
+/* Header Top*/
+.headhead{
+margin:0% auto;  display:block;padding:0px 0px 10px 0px;
+height:30px;}
+	
+.diginit{
+float:left;padding-left:20px;margin-bottom:00px;}
+		
+#ui {
+font-size:32px; background:none; border:none;float:left;
+color: black;
+font-family: 'allan',helvetica,Helvetica, Rockwell,cursive;
+font-weight: bold;
+line-height: 1.3em;
+padding:0px;
+text-decoration:none;}
+	
+.header{
+color: white;
+background:url("body-home.png") repeat scroll 0 0 ;  
+height:70px; 	
+margin:0% auto;	
+padding: 0px 100px 0px 100px;
+}
+	
+input{
+line-height:1.5em;
+font-size:20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+display:inline;
+font-family: 'Allan', Helvetica, Rockwell,cursive;}
+
+.button-all {
+color:#fff;
+background-color:#789AA1;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+font-size:20px;
+font-family: 'Allan', Helvetica, Rockwell,cursive;
+margin-left:10px;
+display:inline;
+}
+
+/* pressstart font best in multiples of 8px */
+/* pressstart green #B6FF00, old terminal green #00ff00 */
+p.font5{
+	color: #00ff00;
+  font-family: PressStart;font-size:48px; padding:10px 0px 0px 0px;margin:0px;}
+
+
+/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+form div{position:relative;} 
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+    position:relative;
+    z-index:10;
+    width:166px !important;
+    height:26px !important;
+    line-height:26px;
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+    position:absolute;
+    bottom:0;
+    float:left;
+    left:0;
+    width:166px;
+    height:26px;
+    line-height:26px;
+    text-indent:10px;
+    background:url(sel.png) no-repeat 0 0;
+    cursor:default;
+    z-index:1;
+	}
+
+.yrtxt{
+display:none;
+margin:0px;}
+
+#logolink{
+	color:#fff;text-decoration:none;border:none;}
+	
+#gemword{float:left; height:70px;}
+
+#otmount{width:200px;float:left; margin-top:-5px;height:70px;}
+
+#otmount p{color: #B6FF00;
+  font-family: PressStart;
+line-height:.8em; 
+font-size:40px;padding:10px 0px;margin:0px;width:200px;
+}
+
+.searchall{float:right;margin:20px 0px 0px 0px}
+.digyrbook{width:400px;float:left;margin-left:125px;}
+.digyrbook p{font-family: 'Allan', Helvetica, Rockwell,cursive;
+	line-height:.2em; font-size:25px;float:left;
+	padding:10px 0px;margin:0px;}
+
+.nav2
+{float:right;
+border-bottom-width: 0.5px;
+padding-top:10px;}	
+
+.nav2 a:hover{
+background:url("body-home.png") repeat scroll 0 0 ;  
+color:#fff;
+border-style: none;
+border-width: none;
+padding:7px 12px 4px 12px;
+}
+
+ select{
+position:relative;
+border:none;
+font-family:'allan', Helvetica, Rockwell,cursive;font-size:20px; 
+line-height:.8em;
+color:black;
+text-decoration:none;
+display:inline;
+font-weight:250;
+}
+	
+.year{
+background-color:#fff;
+border-top:none;
+border-color:#5E5E65;
+float:right;
+	  position:relative;
+border-width:0px 2px 2px 2px;
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-style: solid;
+border-width: thick;
+padding:0px 7px ;
+margin:-8px 10px 0px 0px;
+font-family:'allan', Helvetica, Rockwell,cursive;font-size:20px; 
+line-height:.8em;
+color:black;
+text-decoration:none;
+display:inline;
+font-weight:250;
+}
+	
+.header_bottom{
+height:20px; 
+margin:0% auto;	
+padding: 4px 100px 0px 100px;
+	}
+
+.display{
+margin: 0% auto; width:1000px;
+background: url('wgetSpread2.png') no-repeat; background-size: 100%;
+-webkit-box-shadow: 5px 5px 5px 5px #333;
+box-shadow: 5px 5px 5px 5px #333;}
+
+#spread{
+width:100%;float:left; }
+	
+#homecredits{
+float:right;margin: 25px; }
+#homecredits p a{
+padding-left:20px;}
+
+#homecredits p{font-size:15px;color:#666; padding:10px 0px;margin:0px;font-family: 'Allan', Helvetica, Rockwell,cursive;
+line-height:.8em;}
+	
+#hometitle{
+float:right;margin: 45px;width:450px; 
+}
+
+#hometitle p{
+font-size:50px; font-family: 'Allan', Helvetica, Rockwell,cursive; padding:0px;margin:0px;
+}
+#nav2_home p {
+font-family: PressStart;
+font-size:28px;
+margin-top: 25px;margin-bottom: 25px;
+padding: 25px 25px;
+border-color:#00ff00;
+color:#00ff00;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-style: solid;
+border-width: thick;
+}
+#nav2_home a{
+color:#B6FF00;
+text-decoration:none;
+font-weight:bold;
+}
+
+#nav2_home p:hover{
+	background:#cdcdcd;  
+	color:#fff;
+	}
+
+.nav2 a{
+background-color:#fff;
+border-top:none;
+border-color:#5E5E65;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-style: solid;
+border-right-width: thick;
+border-left-width: thick;
+border-top-width: thick;
+border-bottom-width: none;
+padding:3px 7px 0px 7px;
+font-family: 'allan', helvetica, Helvetica, Rockwell,cursive;font-size:16px; margin:0px 10px -3px 10px ;
+line-height:.8em;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+	
+.header_top{
+height:32px;
+margin:0% auto;	
+padding: 0px 100px 0px 100px;
+	}
+.header_top a{
+height:32px;}
+		
+.holder {
+margin:0% auto;
+padding:10px 50px;
+}
+body
+{
+position:relative;
+padding:0px;
+margin:0px;
+background:url("bg-1.jpg") repeat scroll 0 0 ;
+min-width:1100px;
+} 
+
+	/* Sponsor */
+
+#sponsorbutton{
+text-decoration:none;
+border:none; color:white; 
+font-size:20px;
+width:150px; }
+
+#join{float:left;
+color:#fff;
+background-color:#789AA1;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+font-size:20px;
+font-family: 'Allan', Helvetica, Rockwell,cursive;
+padding:10px 0px 10px 0px ; 
+width:150px; 
+font-size:20px;text-align:center;
+margin:00px 50px 11px 20px;
+-webkit-box-shadow:  2px 2px 2px 2px #fff;
+box-shadow:  2px 2px 2px 2px #fff; 
+	}
+
+/* Copyright banner*/
+		
+.header_below{
+color: white;
+background:url("body-home.png") repeat scroll 0 0 ;  
+height:35px; 	
+margin:0% auto;	
+padding: 5px 10em 0px 10em;
+	}
+
+.header_below p{font-size:16px; color:#fff;text-align:center;  font-family: 'Allan', Helvetica, Rockwell,cursive; padding:10px 0px;margin:0px;
+line-height:.8em;}
+
+html{
+background:#333;
+}
+
+#collectionlist a{
+    color:#fff;
+    font-size:15px;
+    width:100%;
+	border:none;
+	font-weight:100;}
+	
+#collectionlist a strong{
+font-weight:bold;
+font-size:larger;}
+
+
+#collectionlist{
+
+width:380px;
+background:#666;
+color:white;
+position:absolute;
+top:-3000px;
+padding:20px;
+right:20px;
+ cursor:auto;
+    z-index:1000;
+    border-radius:20px 0px 0px 20px;
+    height:700px;
+    overflow-y:scroll;
+	overflow-x:hidden;
+	transition: .4s;
+-webkit-transition:.4s;
+font-family:'allan', helvetica;
+}
+
+#collectionlist ul{
+width:100%;
+list-style:none;
+padding-left:20px;
+}
+
+#collectionlist ul li{
+width:100%;
+
+
+padding:3px;
+}
+
+#collectionslink {
+cursor: pointer;
+z-index: 999;
+position: absolute;
+right: 0px;
+top: 0px;
+color: white;
+font-size: 14px;
+background: #999;
+border-radius: 0px 0px 0px 20px;
+padding: 5px 20px;
+border-bottom: 1px #dadada solid;
+margin:0;
+font-family:'allan', helvetica;
+}
+#collectionslink p{
+margin:0;}
+
+
+.searchall_drop{width:200px;margin:0px -14px 0px 0px;float:right;text-align:right;}
+
+#collectionslinkoff {
+cursor: pointer;
+width: auto;
+float: right;
+text-align: center;
+color: white;
+font-size: 16px;
+border: 1px solid #fff;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+margin: -14px -5px 0px 0px;
+padding: 2px 3px;
+font-family:verdana, arial;
+}
+#collectionslinkoff:hover{
+color:#666;
+background:#fff;}
+
+#collectionlist h4 {
+font-size: 24px;
+width: 160px;
+margin-top: 0px;
+font-weight:400;
+margin-bottom: 8px;
+font-family:'allan', helvetica;
+}
