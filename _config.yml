@@ -1,0 +1,15 @@
+# Jekyll GH-pages Digital Collection Generator
+
+# Site settings
+title: UI Web Archive Collections
+description: Preserving access to unique born-digital content
+keywords: university of idaho, university communications, digital collections, web archive
+owner: University of Idaho Library
+email: ewilliamson@uidaho.edu
+
+# url variables
+url: https://www.lib.uidaho.edu/digital
+baseurl: /webarchive
+liburl: https://www.lib.uidaho.edu
+digurl: https://www.lib.uidaho.edu/digital
+repourl: https://digital.lib.uidaho.edu

@@ -1,0 +1,13 @@
+<script>
+    function google_search() {
+        var query = document.getElementById("google-search").value;
+        var domain = "{{ site.url }}{{ site.baseurl }}";
+        window.open("https://www.google.com/search?q=" + query + "+site:" + domain);
+    }
+</script>
+
+<form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
+    <div class="form-group">
+      <input type="text" id="google-search" placeholder="Google search..." aria-label="Google site search">
+    </div>
+</form>

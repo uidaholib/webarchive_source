@@ -1,0 +1,9 @@
+<script>
+    /* all collections toggle */
+    function collectionsToggle() {
+        document.getElementById("collectionlist").style.display = (document.getElementById("collectionlist").style.display === "block") ? "none" : "block";
+    }
+    /* open + close all collections nav */
+    document.getElementById("collectionslink").onclick = function () { collectionsToggle(); };
+    document.getElementById("collectionslinkoff").onclick = function () { collectionsToggle(); };
+</script>

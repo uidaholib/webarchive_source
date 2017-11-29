@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% include collection-banner.html %}
+{% include all-collections-nav.html %}
+{% include collection-nav.html %}
+
+<div class="page-content">
+    <div class="wrapper">
+        
+        <div class="letter-info">
+            <h2 id="letter-title">Friday Letter {{ page.date}}:<br>{{ page.title }}</h2>
+            <p id="archive-warning">Please note: this is an archived email message and may not display as originally intended. Some images, links, and functionality may be broken or out of date.</p>
+        </div>
+
+        <div class="letter"> {{ page.body }}</div>
+
+        <div class="back-button">
+            <a href="{{ site.baseurl }}/">❮ Back to Archive Home</a>
+        </div>
+    </div>
+</div>
+{% include all-collections-js.html %}

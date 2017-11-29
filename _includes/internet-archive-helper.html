@@ -1,0 +1,13 @@
+<script>
+    function archiveorg_search() {
+        var query = document.getElementById("archiveorg-search").value;
+        var domain = "{{ site.url }}{{ site.baseurl }}";
+        window.open("http://web.archive.org/web/" + query);
+    }
+</script>
+
+<form class="navbar-form navbar-right" role="search" id="search" onsubmit="archiveorg_search(); return false;">
+    <div class="form-group">
+      <input type="text" id="archiveorg-search" placeholder="Search Internet Archive..." aria-label="Search Internet Archive">
+    </div>
+</form>
