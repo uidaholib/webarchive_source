@@ -8,8 +8,8 @@ owner: University of Idaho Library
 email: ewilliamson@uidaho.edu
 
 # url variables
-url: https://www.lib.uidaho.edu/digital
-baseurl: /webarchive
+url: https://www.lib.uidaho.edu
+baseurl: /digital/webarchive
 liburl: https://www.lib.uidaho.edu
 digurl: https://www.lib.uidaho.edu/digital
 repourl: https://digital.lib.uidaho.edu
