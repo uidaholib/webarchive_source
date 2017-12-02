@@ -15,20 +15,22 @@
                 <div class="col-md-8 col-sm-12" style="whitespace:nowrap;">
                     <a class="page-link {% if page.url == "/" %} active{% endif %}" href="{{ site.baseurl }}/" id="homehash" >Home</a>
                     <a class="page-link {% if page.url == "/about.html" %} active{% endif %}" href="{{ site.baseurl }}/about.html" id="abouthash">About</a>
+                    <a class="page-link {% if page.url == "/search.html" %}active{% endif %}" href="{{ site.baseurl }}/search.html" >Search</a>
+                    <a class="page-link {% if page.url == "/timeline.html" %}active{% endif %}" href="{{ site.baseurl }}/timeline.html" >Timeline</a>
                 </div>
                 
                 <div class="col-md-4 pull-right">
                     <script>
                         function google_search() {
                             var query = document.getElementById("google-search").value;
-                            var domain = "{{ site.url }}{{ site.baseurl }}";
-                            window.open("https://www.google.com/search?q=" + query + "+site:" + domain);
+                            window.open("{{ '/search.html' | absolute_url }}?q=" + query );
                         }
                     </script>
+                    {% if page.url != "/search.html" %}
                     <form class="searchall" role="search" id="search" onsubmit="google_search(); return false;">
                             <input type="text" size="15" id="google-search" placeholder="Google search..." aria-label="Google site search">
                             <input class="button-all" type="submit" value=" Search ">
-                    </form>
+                    </form> {% endif %}
                 </div>
 
             </div>
