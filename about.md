@@ -5,8 +5,11 @@ title: About
 
 # About {{ site.title }}
 
-To ensure continued access to the unique born-digital content of university communications, University of Idaho Library captures items in their original web context on an annual basis.
+To ensure continued access to the unique born-digital content made available on the university website, University of Idaho Library captures university communications in their original web context on an annual basis.
+Select material from these harvests are made available in our digital collections.
+For more web archive material, more information, or to view web content closer to how it was intended please contact [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/contactus.html).
 Collections currently include newsletters, such as the Friday Letter, and news items, such as UI News.
+See these pages for contextual information on each.
 
 **Please note,** the archived web pages and email messages are in a variety of formats and may not display as originally intended. 
 Some images, links, and functionality may be broken or out of date.
