@@ -13,3 +13,6 @@ baseurl: /digital/webarchive
 liburl: https://www.lib.uidaho.edu
 digurl: https://www.lib.uidaho.edu/digital
 repourl: https://digital.lib.uidaho.edu
+
+# Notes: 
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
