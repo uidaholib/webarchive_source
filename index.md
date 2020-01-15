@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-<img src="assets/images/spec_crop2.jpg" style="width:100%">
+<img src="{{ site.objects }}/spec_crop2.jpg" class="w-100">
 
 ## University of Idaho Web Archive Collections
 

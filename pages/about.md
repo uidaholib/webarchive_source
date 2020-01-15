@@ -4,6 +4,7 @@ layout: page
 permalink: /about.html
 # add image to index page bootstrap jumbotron
 featured-image:
+lazyload: true
 ---
 
 <div class="row" markdown="1">
@@ -29,7 +30,7 @@ For current information, please visit [University of Idaho website](https://www.
 <div class="col-md-4" markdown="1">
 <div class="card mb-2"><div class="card-body">
 <figure class="figure text-center mb-0">
-  <img src="{{ '/assets/images/timeline/1997.jpg' | relative_url }}" alt="U of I Library website 1997" class="figure-img img-fluid rounded">
+  <img src="{{ site.objects }}/timeline/1997.jpg" alt="U of I Library website 1997" class="figure-img img-fluid rounded">
   <figcaption class="figure-caption"><a href='https://web.archive.org/web/19970218140532/https://www.lib.uidaho.edu/'>Library website 1997</a></figcaption>
 </figure>
 </div></div>
@@ -53,7 +54,7 @@ In 2003 they helped form the <a href="http://netpreserve.org/about-us">Internati
 For more information on Web Archiving, visit <a href="http://netpreserve.org/">IIPC</a> and the <a href="https://archive.org/web/">Internet Archive</a>, or watch the introductory video from the <a href="http://www.loc.gov/webarchiving/">Library of Congress</a> below:
 
 <figure style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/T0943YkhLWU" frameborder="0" allowfullscreen></iframe>
+    <iframe class="lazyload" width="560" height="315" data-src="https://www.youtube.com/embed/T0943YkhLWU" frameborder="0" allowfullscreen></iframe>
     <figcaption>Library of Congress: "Web content changes all the time. If we don't save that content before it disappears, a major part of our cultural history will be lost."</figcaption>
 </figure>
 
