@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-<img src="images/spec_crop2.jpg" style="width:100%">
+<img src="assets/images/spec_crop2.jpg" style="width:100%">
 
 ## University of Idaho Web Archive Collections
 
@@ -12,8 +12,9 @@ Select material from these harvests are made available in our digital collection
 For more information, additional web archive material, or to view web content closer to how it was originally intended please contact [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/contactus.html).
 
 Available collections:
-- [University of Idaho News](https://www.lib.uidaho.edu/digital/uinews/index.html)
+
 - [The Friday Letter](https://www.lib.uidaho.edu/digital/fridayletter/)
+- [University of Idaho News](https://www.lib.uidaho.edu/digital/uinews/index.html)
 - [Malcolm M. Renfrew Interdisciplinary Colloquium Web Archive](https://www.lib.uidaho.edu/digital/mric/)
 - [First Monday Newsletter](https://www.lib.uidaho.edu/find/firstmondaynewsletter/)
 

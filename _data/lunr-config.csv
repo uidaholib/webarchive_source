@@ -1,0 +1,6 @@
+field,index,display
+title,true,true
+date,true,true
+category,true,true
+news_source,true,false
+email,true,false

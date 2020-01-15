@@ -1,21 +1,17 @@
-# Jekyll GH-pages Digital Collection Generator
-
-# Site settings
-title: UI Web Archive Collections
-description: Preserving access to unique born-digital content
-keywords: university of idaho, university communications, digital collections, web archive
-owner: University of Idaho Library
-email: ewilliamson@uidaho.edu
-
-# url variables
-url: https://www.lib.uidaho.edu
-baseurl: /digital/webarchive
-liburl: https://www.lib.uidaho.edu
-digurl: https://www.lib.uidaho.edu/digital
-repourl: https://digital.lib.uidaho.edu
-
-# Notes: 
-# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# Jekyll Digital Collection Generator
 
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
+
+# url variables
+# library's domain (only changed if using github pages)
+url: https://www.lib.uidaho.edu
+# location on the website, normally in /digital
+# e.g. /digital/hjccc
+baseurl: /digital/webarchive
+# url to the shared assets folder on Digital
+digital-assets: https://www.lib.uidaho.edu/assets
+# Collection's objects dir location
+objects: https://www.lib.uidaho.edu/digital/objects/webarchive
+
+exclude: [work, old, 'Rakefile']

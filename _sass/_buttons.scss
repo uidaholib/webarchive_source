@@ -1,173 +1,285 @@
-//
-// Base styles
-//
 
-.btn {
-  display: inline-block;
-  font-weight: $btn-font-weight;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  user-select: none;
-  border: $input-btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $font-size-base, $line-height, $btn-border-radius);
-  @include transition(all .2s ease-in-out);
-
-  &,
-  &:active,
-  &.active {
-    &:focus,
-    &.focus {
-      @include tab-focus();
+.btn-pride-gold{
+    color: #fff;
+    background-color: $pride-gold;
+    border-color: $pride-gold;
+    &:hover{
+        background-color: darken($pride-gold, 5%);
+        border-color: $pride-gold;
+        color:white;
     }
-  }
-
-  @include hover-focus {
-    text-decoration: none;
-  }
-  &.focus {
-    text-decoration: none;
-  }
-
-  &:active,
-  &.active {
-    background-image: none;
-    outline: 0;
-    @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
-  }
-
-  &.disabled,
-  &:disabled {
-    cursor: $cursor-disabled;
-    opacity: .65;
-    @include box-shadow(none);
-  }
 }
 
-// Future-proof disabling of clicks on `<a>` elements
-a.btn.disabled,
-fieldset[disabled] a.btn {
-  pointer-events: none;
+.btn-outline-pride-gold{
+color: pride-gold;
+background-color: transparent;
+background-image: none;
+border-color: $pride-gold;
+&:hover{
+    background-color: $pride-gold;
+    color:white;
+}}
+.pride-gold{
+    color:$pride-gold !important;
 }
 
-
-//
-// Alternate buttons
-//
-
-.btn-primary {
-  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
-}
-.btn-secondary {
-  @include button-variant($btn-secondary-color, $btn-secondary-bg, $btn-secondary-border);
-}
-.btn-info {
-  @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
-}
-.btn-success {
-  @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
-}
-.btn-warning {
-  @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
-}
-.btn-danger {
-  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+.border-pride-gold{
+    border-color:$pride-gold !important;
 }
 
-// Remove all backgrounds
-.btn-primary-outline {
-  @include button-outline-variant($btn-primary-bg);
-}
-.btn-secondary-outline {
-  @include button-outline-variant($btn-secondary-border);
-}
-.btn-info-outline {
-  @include button-outline-variant($btn-info-bg);
-}
-.btn-success-outline {
-  @include button-outline-variant($btn-success-bg);
-}
-.btn-warning-outline {
-  @include button-outline-variant($btn-warning-bg);
-}
-.btn-danger-outline {
-  @include button-outline-variant($btn-danger-bg);
-}
-
-
-//
-// Link buttons
-//
-
-// Make a button look and behave like a link
-.btn-link {
-  font-weight: normal;
-  color: $link-color;
-  border-radius: 0;
-
-  &,
-  &:active,
-  &.active,
-  &:disabled {
-    background-color: transparent;
-    @include box-shadow(none);
-  }
-  &,
-  &:focus,
-  &:active {
-    border-color: transparent;
-  }
-  @include hover {
-    border-color: transparent;
-  }
-  @include hover-focus {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-    background-color: transparent;
-  }
-  &:disabled {
-    @include hover-focus {
-      color: $btn-link-disabled-color;
-      text-decoration: none;
+.btn-garnet{
+    color: #fff;
+    background-color: $garnet;
+    border-color: $garnet;
+    &:hover{
+        background-color: darken($garnet, 5%);
+        border-color: $garnet;
+        color:white;
     }
-  }
 }
 
-
-//
-// Button Sizes
-//
-
-.btn-lg {
-  // line-height: ensure even-numbered height of button next to large input
-  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $line-height-lg, $btn-border-radius-lg);
-}
-.btn-sm {
-  // line-height: ensure proper height of button next to small input
-  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-sm, $line-height-sm, $btn-border-radius-sm);
-}
-
-
-//
-// Block button
-//
-
-.btn-block {
-  display: block;
-  width: 100%;
+.btn-outline-garnet{
+color: garnet;
+background-color: transparent;
+background-image: none;
+border-color: $garnet;
+&:hover{
+    background-color: $garnet;
+    color:white;
+}}
+.garnet{
+    color:$garnet !important;
 }
 
-// Vertically space out multiple block buttons
-.btn-block + .btn-block {
-  margin-top: 5px;
+.border-garnet{
+    border-color:$garnet !important;
 }
 
-// Specificity overrides
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  &.btn-block {
-    width: 100%;
-  }
+.btn-wild-rose{
+    color: #fff;
+    background-color: $wild-rose;
+    border-color: $wild-rose;
+    &:hover{
+        background-color: darken($wild-rose, 5%);
+        border-color: $wild-rose;
+        color:white;
+    }
+}
+
+.btn-outline-wild-rose{
+color: wild-rose;
+background-color: transparent;
+background-image: none;
+border-color: $wild-rose;
+&:hover{
+    background-color: $wild-rose;
+    color:white;
+}}
+.wild-rose{
+    color:$wild-rose !important;
+}
+
+.border-wild-rose{
+    border-color:$wild-rose !important;
+}
+
+.btn-palouse-green{
+    color: #fff;
+    background-color: $palouse-green;
+    border-color: $palouse-green;
+    &:hover{
+        background-color: darken($palouse-green, 5%);
+        border-color: $palouse-green;
+        color:white;
+    }
+}
+
+.btn-outline-palouse-green{
+color: palouse-green;
+background-color: transparent;
+background-image: none;
+border-color: $palouse-green;
+&:hover{
+    background-color: $palouse-green;
+    color:white;
+}}
+.palouse-green{
+    color:$palouse-green !important;
+}
+.bg-palouse-green{
+    background-color:$palouse-green !important;
+}
+
+.border-palouse-green{
+    border-color:$palouse-green !important;
+}
+
+.btn-clearwater{
+    color: #fff;
+    background-color: $clearwater;
+    border-color: $clearwater;
+    &:hover{
+        background-color: darken($clearwater, 5%);
+        border-color: $clearwater;
+        color:white;
+    }
+}
+
+.btn-outline-clearwater{
+color: clearwater;
+background-color: transparent;
+background-image: none;
+border-color: $clearwater;
+&:hover{
+    background-color: $clearwater;
+    color:white;
+}}
+.clearwater{
+    color:$clearwater !important;
+}
+
+.border-clearwater{
+    border-color:$clearwater !important;
+}
+.bg-clearwater {
+    background-color: $clearwater !important;
+}
+.btn-clearwater-light{
+    color: #fff;
+    background-color: $clearwater-light;
+    border-color: $clearwater-light;
+    &:hover{
+        background-color: darken($clearwater-light, 5%);
+        border-color: $clearwater-light;
+        color:white;
+    }
+}
+
+.btn-outline-clearwater-light{
+color: clearwater-light;
+background-color: transparent;
+background-image: none;
+border-color: $clearwater-light;
+&:hover{
+    background-color: $clearwater-light;
+    color:white;
+}}
+.clearwater-light{
+    color:$clearwater-light !important;
+}
+
+.border-clearwater-light{
+    border-color:$clearwater-light !important;
+}
+
+.btn-payette-blue{
+    color: #fff;
+    background-color: $payette-blue;
+    border-color: $payette-blue;
+    &:hover{
+        background-color: darken($payette-blue, 5%);
+        border-color: $payette-blue;
+        color:white;
+    }
+}
+
+.btn-outline-payette-blue{
+color: payette-blue;
+background-color: transparent;
+background-image: none;
+border-color: $payette-blue;
+&:hover{
+    background-color: $payette-blue;
+    color:white;
+}}
+.payette-blue{
+    color:$payette-blue !important;
+}
+
+.border-payette-blue{
+    border-color:$payette-blue !important;
+}
+
+.btn-ponderosa-pine{
+    color: #fff;
+    background-color: $ponderosa-pine;
+    border-color: $ponderosa-pine;
+    &:hover{
+        background-color: darken($ponderosa-pine, 5%);
+        border-color: $ponderosa-pine;
+        color:white;
+    }
+}
+
+.btn-outline-ponderosa-pine{
+color: ponderosa-pine;
+background-color: transparent;
+background-image: none;
+border-color: $ponderosa-pine;
+&:hover{
+    background-color: $ponderosa-pine;
+    color:white;
+}}
+.ponderosa-pine{
+    color:$ponderosa-pine !important;
+}
+
+.border-ponderosa-pine{
+    border-color:$ponderosa-pine !important;
+}
+
+.btn-black-color{
+    color: #fff;
+    background-color: $black-color;
+    border-color: $black-color;
+    &:hover{
+        background-color: darken($black-color, 5%);
+        border-color: $black-color;
+        color:white;
+    }
+}
+
+.btn-outline-black-color{
+color: black-color;
+background-color: transparent;
+background-image: none;
+border-color: $black-color;
+&:hover{
+    background-color: $black-color;
+    color:white;
+}}
+.black-color{
+    color:$black-color !important;
+}
+
+.border-black-color{
+    border-color:$black-color !important;
+}
+
+.btn-grey-color{
+    color: #fff;
+    background-color: $grey-color;
+    border-color: $grey-color;
+    &:hover{
+        background-color: darken($grey-color, 5%);
+        border-color: $grey-color;
+        color:white;
+    }
+}
+
+.btn-outline-grey-color{
+color: grey-color;
+background-color: transparent;
+background-image: none;
+border-color: $grey-color;
+&:hover{
+    background-color: $grey-color;
+    color:white;
+}}
+.grey-color{
+    color:$grey-color !important;
+}
+
+.border-grey-color{
+    border-color:$grey-color !important;
 }

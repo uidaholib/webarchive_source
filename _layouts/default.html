@@ -1,11 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    {% include head.html %}
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    {% include head/head.html %}
   </head>
-
   <body>
-    {{ content }}
+    {% include collection-banner.html %}
+    {% include collection-nav.html %}
+    <main role="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include foot.html %}
+    {% include all-collections-nav-json.html %}
   </body>
-
 </html>

@@ -1,0 +1,7 @@
+field,display-name,dc-map,browse-link
+title,Title,DC.title,
+date,Date,DCTERMS.created,
+category,Category,
+source,Harvested from, 
+type,Type,DC.type,
+format,Digital Format,

@@ -10,7 +10,7 @@ layout: default
     <div class="wrapper">
         
         <div class="letter-info">
-            <h2 id="letter-title">Friday Letter {{ page.date}}:<br>{{ page.title }}</h2>
+            <h2 id="letter-title">Friday Letter {{ page.date }}{%if page.title %}:<br>{{ page.title }}{% endif %}</h2>
             <p id="archive-warning">Please note: this is an archived email message and may not display as originally intended. Some images, links, and functionality may be broken or out of date.</p>
         </div>
 
