@@ -16,6 +16,7 @@ Available collections:
 - [The Friday Letter](https://www.lib.uidaho.edu/digital/fridayletter/)
 - [University of Idaho News](https://www.lib.uidaho.edu/digital/uinews/index.html)
 - [Malcolm M. Renfrew Interdisciplinary Colloquium Web Archive](https://www.lib.uidaho.edu/digital/mric/)
+- [Terry Abraham Web Archive](https://www.lib.uidaho.edu/special-collections/t-abraham/)
 - [First Monday Newsletter](https://www.lib.uidaho.edu/find/firstmondaynewsletter/)
 
 *Note: this portal is under development and subject to change.*
