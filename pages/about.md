@@ -15,7 +15,7 @@ lazyload: true
 To ensure continued access to the unique born digital content made available on University of Idaho websites, the Library captures university communications in their original web context on an annual basis.
 Select material from these harvests are made available in our digital collections.
 
-For more information, additional web archive material, or to view web content closer to how it was originally intended please contact [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/contactus.html).
+For more information, additional web archive material, or to view web content closer to how it was originally intended please contact [Special Collections and Archives](https://www.lib.uidaho.edu/special-collections/).
 Collections currently include newsletters, such as the [Friday Letter](https://www.lib.uidaho.edu/digital/fridayletter/), and news items, such as [UI News](https://www.lib.uidaho.edu/digital/uinews/index.html).
 
 The content can be discovered using [Google Custom Search]({{ '/search/google-search.html' | relative_url }}), with more options available in individual collection sites.
