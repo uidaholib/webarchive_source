@@ -13,5 +13,20 @@ baseurl: /digital/webarchive
 digital-assets: https://www.lib.uidaho.edu/assets
 # Collection's objects dir location
 objects: https://www.lib.uidaho.edu/digital/objects/webarchive
+source-code: https://github.com/uidaholib/webarchive_source/
 
 exclude: [work, old, 'Rakefile']
+
+# Site settings
+# header and head metadata
+title: U of I Web Archive Collections
+tagline: Preserving Access to Unique Born Digital Content
+description: "Collections of born digital content harvested from University of Idaho websites."
+keywords: "University of Idaho; university of idaho, university communications, digital collections, web archive" # describing the whole collection -- add to the two provided
+author: evanwill # You! Add your github username 
+# Organization branding
+organization-name: "Digital Initiatives, University of Idaho Library"
+organization-link: https://www.lib.uidaho.edu/digital/
+organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
+organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+
